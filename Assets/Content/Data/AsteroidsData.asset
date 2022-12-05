@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39f0e3f474848ac8560bb18ee21b816, type: 3}
+  m_Name: AsteroidsData
+  m_EditorClassIdentifier: 
+  <LittleAsteroid>k__BackingField: {fileID: -96735099912328851, guid: 6145c9be9680def419c1c096d79cc821, type: 3}
+  <MediumAsteroid>k__BackingField: {fileID: 8074379289933150037, guid: 791bfc4acc2dbce4eb328615e1155b1b, type: 3}
+  <LargeAsteroid>k__BackingField: {fileID: 3141684690286787725, guid: fb59b6449eb62c74296b25297b82c54d, type: 3}
