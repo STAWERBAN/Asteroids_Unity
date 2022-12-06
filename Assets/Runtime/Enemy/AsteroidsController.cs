@@ -29,6 +29,8 @@ namespace Runtime.Enemy
 
         private float _timer;
 
+        private const float DestroyedAsteroidChangeAngle = 30;
+
         public AsteroidsController(OutOfSceneService outOfSceneObjectService, AsteroidsData asteroidsData,
             GameModel gameModel, GameplayData gameplayData)
         {
@@ -141,7 +143,7 @@ namespace Runtime.Enemy
             for (var i = -1; i < 2; i += 2)
             {
                 var item = pool.GetItem();
-                var newDirection = GetNewRotatedVector(direction, 30 * i);
+                var newDirection = GetNewRotatedVector(direction, DestroyedAsteroidChangeAngle * i);
                 var moveParameter = new MoveParameters(newDirection);
 
                 item.transform.position = position;
